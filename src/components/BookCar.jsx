@@ -199,11 +199,11 @@ function BookCar() {
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                   <option>Rajeev Chowk</option>
+                    <option>GTB Nagar</option>
+                    <option>OLd Rajendra Nagar</option>
+                    <option>Pitampura</option>
+                    <option>India Gate</option>
                   </select>
                 </div>
 
@@ -214,11 +214,11 @@ function BookCar() {
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
                     <option>Select drop off location</option>
-                    <option>Novi Sad</option>
-                    <option>Belgrade</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                   <option>Rajeev Chowk</option>
+                    <option>GTB Nagar</option>
+                    <option>OLd Rajendra Nagar</option>
+                    <option>Pitampura</option>
+                    <option>India Gate</option>
                   </select>
                 </div>
 
@@ -269,7 +269,7 @@ function BookCar() {
         <div className="booking-modal__message">
           <h4>
             <i className="fa-solid fa-circle-info"></i> Upon completing this
-            reservation enquiry, you will receive:
+            reservation inquiry, you will receive:
           </h4>
           <p>
             Your rental voucher to produce on arrival at the rental desk and a
