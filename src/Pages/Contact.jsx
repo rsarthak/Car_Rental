@@ -37,13 +37,10 @@ function Contact() {
                 <i className="fa-solid fa-phone"></i>&nbsp; (123) 456-7869
               </a>
               <a href="/">
-                <i className="fa-solid fa-envelope"></i>&nbsp;
-                sarthakr748@gmail.com
-              </a>
-              <a href="/">
                 <i className="fa-solid fa-location-dot"></i>&nbsp; Hamirpur,
                 Himachal Pradesh
               </a>
+              <button className="mail" onClick={() => window.location = 'mailto:yourmail@domain.com'}>Mail Me</button>
             </div>
             <div className="contact-div__form">
              
