@@ -2124,7 +2124,21 @@
   }
   
   
-  
+   .mail{
+width: 28%;
+height: 25px;
+padding: 4px;
+background-color: #16120f;
+color:white;
+font-weight: 550;
+border-radius: 5.6px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  .mail:hover{
+    background-color:#ff4d30 ;
+    border-color: #ff4d30;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  }
   
   
   
