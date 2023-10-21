@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import Logo from "../images/logo/logo.png";
 import { useState } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-
+import {RiBarChartHorizontalLine} from 'react-icons/ri'
+import {RxCross1} from 'react-icons/rx'
 function Navbar() {
   const [nav, setNav] = useState(false);
   const { loginWithRedirect, isAuthenticated,logout,user } = useAuth0();
@@ -17,7 +18,7 @@ function Navbar() {
         {/* mobile */}
         <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
           <div onClick={openNav} className="mobile-navbar__close">
-            <i className="fa-solid fa-xmark"></i>
+            <RxCross1/>
           </div>
           <ul className="mobile-navbar__links">
             <li>
@@ -118,7 +119,7 @@ function Navbar() {
          </ul>   
           {/* mobile */}
           <div className="mobile-hamb" onClick={openNav}>
-            <i className="fa-solid fa-bars"></i>
+           <RiBarChartHorizontalLine/>
           </div>
         </div>
       </nav>
